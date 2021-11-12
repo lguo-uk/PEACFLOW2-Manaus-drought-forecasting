@@ -3,3 +3,5 @@ This package is under the construction. It will use a similar structure as [PEAC
 
 # Structure of this package
 * Code of model development is not included.
+* Developed models are provided in .pickle format.
+* Script of observed data download need to be included.
