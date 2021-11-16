@@ -11,4 +11,10 @@ This package is under the construction. It will use a similar structure as [PEAC
 
 # Prepared data
 ## Data needed for bias correction:
-* CHIRPS rainfall between 1981-2016 
+* CHIRPS rainfall between 1981-2016
+## Data to be downloaded for forecasting
+* CHIRPS rainfall (Observation)
+* ECMWF rainfall (Seasonal Forecast)
+* Circulation metrics (Observation)
+* Circulation metrics (Seasonal Forecast)
+* Prepending maximum annual river level
