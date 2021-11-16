@@ -10,6 +10,8 @@ This package is under the construction. It will use a similar structure as [PEAC
 * Script of observed data download need to be included.
 
 # Prepared data
+## Constant data
+* Rainfall mask
 ## Data needed for bias correction:
 * CHIRPS rainfall between 1981-2016
 ## Data to be downloaded for forecasting
