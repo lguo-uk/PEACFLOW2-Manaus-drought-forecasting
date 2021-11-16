@@ -13,7 +13,7 @@ This package is under the construction. It will use a similar structure as [PEAC
 ## Constant data
 * Rainfall mask
 ## Data needed for bias correction:
-(Following three datasets are prepared and stored in __obs_1981-2020.cvs__ using __prepare_realtime.ipynb__)*
+(Following three datasets are prepared and stored in __obs_1981-2020.cvs__ using __prepare_obs.ipynb__.)\
 (__Note that:__ this file needs annual update to include the latest observations.)
 * CHIRPS rainfall (Observation)
 * Circulation metrics (Observation)
