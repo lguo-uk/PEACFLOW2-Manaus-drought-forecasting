@@ -8,3 +8,7 @@ This package is under the construction. It will use a similar structure as [PEAC
 * Developed models are provided in .pickle format.
 * Rainfall masks are included in .npz format.
 * Script of observed data download need to be included.
+
+# Prepared data
+## Data needed for bias correction:
+* CHIRPS rainfall between 1981-2016 
