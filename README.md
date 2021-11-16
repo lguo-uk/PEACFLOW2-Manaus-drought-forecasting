@@ -12,8 +12,8 @@ This package is under the construction. It will use a similar structure as [PEAC
 # Prepared data
 ## Constant data
 * Rainfall mask
-## Data needed for bias correction 
-(following three datasets are prepared ):
+## Data needed for bias correction:
+(following three datasets are prepared and stored in obs_1981-2020.cvs using __prepare_realtime.ipynb__)
 * CHIRPS rainfall (Observation)
 * Circulation metrics (Observation)
 * Prepending maximum annual river level (Observation)
