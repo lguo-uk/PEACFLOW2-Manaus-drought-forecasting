@@ -12,12 +12,11 @@ This package is under the construction. It will use a similar structure as [PEAC
 # Prepared data
 ## Constant data
 * Rainfall mask
-## Data needed for bias correction:
-* CHIRPS rainfall between 1981-2016
-## Data to be downloaded for forecasting
+## Data needed for bias correction 
+(following three datasets are prepared ):
 * CHIRPS rainfall (Observation)
 * Circulation metrics (Observation)
 * Prepending maximum annual river level (Observation)
----
+## Data to be downloaded for forecasting
 * ECMWF rainfall (Seasonal Forecast)
 * Circulation metrics (Seasonal Forecast)
