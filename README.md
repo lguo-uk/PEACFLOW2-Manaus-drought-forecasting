@@ -16,7 +16,8 @@ This package is under the construction. It will use a similar structure as [PEAC
 * CHIRPS rainfall between 1981-2016
 ## Data to be downloaded for forecasting
 * CHIRPS rainfall (Observation)
-* ECMWF rainfall (Seasonal Forecast)
 * Circulation metrics (Observation)
+* Prepending maximum annual river level (Observation)
+---
+* ECMWF rainfall (Seasonal Forecast)
 * Circulation metrics (Seasonal Forecast)
-* Prepending maximum annual river level
