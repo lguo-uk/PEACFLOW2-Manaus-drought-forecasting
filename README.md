@@ -24,4 +24,4 @@ This package is under the construction. It will use a similar structure as [PEAC
 
 # Needed software and python packages
 * [Climate Data Operators (COD)](https://code.mpimet.mpg.de/projects/cdo/wiki)
-  * More details can be found on its wiki page, Section: Installation and Supported Platforms.
+  * More details can be found on its wiki page, Section: __Installation and Supported Platforms__.
