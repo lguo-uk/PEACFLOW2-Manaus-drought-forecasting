@@ -27,3 +27,4 @@ This package is under the construction. It will use a similar structure as [PEAC
   * More details can be found on its wiki page, Section: __Installation and Supported Platforms__.
 * [cf python package](https://ncas-cms.github.io/cf-python/)
   * Installation details are available [here](https://ncas-cms.github.io/cf-python/installation.html). 
+* [ECMWF/cdsapi package](https://github.com/ecmwf/cdsapi) for data download.
