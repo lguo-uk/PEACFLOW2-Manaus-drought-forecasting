@@ -26,7 +26,7 @@ This package is used to investigate annual minimum river level on River Negro ov
   3.7 Investigating the probability under a customised threshold:    
   ![Step7](./github07.png)
 
-## Prepared data
+## Input Data and other scripts
 ### Constant data
 * Rainfall mask
 ### Data needed for bias correction:
