@@ -40,14 +40,14 @@ This package is used to investigate annual minimum river level on River Negro ov
 * Circulation metrics (Seasonal Forecast)
 
 # <a name="tools"></a>Required Tools and Packages
-## Data Processing Tools
+### Data Processing Tools
 * [Climate Data Operators (CDO)](https://code.mpimet.mpg.de/projects/cdo/wiki)
   * More details can be found on its wiki page, Section: __Installation and Supported Platforms__.
-## Shell unitilities
+### Shell unitilities
 * [Zenity](https://help.gnome.org/users/zenity/stable/) to generate diaglog box in command-line and shell scripts.
   * For Mac, a [Homebrew Formulae](https://formulae.brew.sh/formula/zenity) is available.
   * For Windows, a [GitHub repository](https://github.com/kvaps/zenity-windows) is available.
-## Python packages
+### Python packages
 * [cf python package](https://ncas-cms.github.io/cf-python/)
   * Installation details are available [here](https://ncas-cms.github.io/cf-python/installation.html). 
 * [ECMWF/cdsapi package](https://github.com/ecmwf/cdsapi) for data download.
