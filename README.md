@@ -1,13 +1,12 @@
 # PEACFLOW2-Manaus-drought-forecasting
-This package is under the construction. It will use a similar structure as [PEACFLOW MANAUS Flood Forecasting](https://github.com/achevuturi/PEACFLOW_Manaus-flood-forecasting/tree/master/Using_Observations).
+This package is used to investigate annual minimum river level on River Negro over Manaus. It will use a similar structure as [PEACFLOW MANAUS Flood Forecasting](https://github.com/achevuturi/PEACFLOW_Manaus-flood-forecasting/tree/master/Using_Observations).
 
 ![Manaus Drought 2010](./manaus_drought_2010.png)
 
-# Structure of this package
-* Code of model development is not included.
-* Developed models are provided in .pickle format.
-* Rainfall masks are included in .npz format.
-* Script of observed data download need to be included.
+# Usage of the packge
+1. Download the package.
+2. Scripts are written in __Bash__ and __Python3__. Following [tools and packages](#tools) are necessary.
+3. 
 
 # Prepared data
 ## Constant data
@@ -22,9 +21,16 @@ This package is under the construction. It will use a similar structure as [PEAC
 * ECMWF rainfall (Seasonal Forecast)
 * Circulation metrics (Seasonal Forecast)
 
-# Needed software and python packages
-* [Climate Data Operators (COD)](https://code.mpimet.mpg.de/projects/cdo/wiki)
+# <a name="tools"></a>Required Tools and Packages
+## Data Processing Tools
+* [Climate Data Operators (CDO)](https://code.mpimet.mpg.de/projects/cdo/wiki)
   * More details can be found on its wiki page, Section: __Installation and Supported Platforms__.
+## Shell unitilities
+* [Zenity](https://help.gnome.org/users/zenity/stable/) to generate diaglog box in command-line and shell scripts.
+  * For Mac, a [Homebrew Formulae](https://formulae.brew.sh/formula/zenity) is available.
+  * For Windows, a [GitHub repository](https://github.com/kvaps/zenity-windows) is available.
+## Python packages
 * [cf python package](https://ncas-cms.github.io/cf-python/)
   * Installation details are available [here](https://ncas-cms.github.io/cf-python/installation.html). 
 * [ECMWF/cdsapi package](https://github.com/ecmwf/cdsapi) for data download.
+* Other common used packages inlcuding: numpy, pickle, sys.
