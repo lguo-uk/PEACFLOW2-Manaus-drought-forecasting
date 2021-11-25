@@ -28,7 +28,7 @@ This package is used to investigate annual minimum river level on River Negro ov
 
 ## Input Data and other scripts
 ### Constant data
-* Rainfall mask
+* Monthly rainfall mask for CHIPRS: `mask_chirps_???.npz`
 ### Data needed for bias correction:
 (Following three datasets are prepared and stored in __obs_1981-2020.cvs__ using __prepare_obs.ipynb__.)\
 (__Note that:__ this file needs annual update to include the latest observations.)
