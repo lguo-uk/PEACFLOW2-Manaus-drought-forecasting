@@ -10,7 +10,9 @@ This package is used to investigate annual minimum river level on River Negro ov
   3.1 Enter forecasting year:   
   ![Step1](./github01.png)    
   3.2 Choose forecasting lead month:    
-  ![Setp2](./github02.png)
+  ![Step2](./github02.png)    
+  3.3 Whether to include model uncertainty (True is recommanded):    
+  ![Step3](./github03.png)    
 
 # Prepared data
 ## Constant data
