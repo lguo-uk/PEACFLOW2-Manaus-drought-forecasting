@@ -3,7 +3,7 @@ This package is used to investigate annual minimum river level on River Negro ov
 
 ![Manaus Drought 2010](./manaus_drought_2010.png)
 
-## Use the packge
+## Use the package
 1. Download the package.
 2. Scripts are written in __Bash__ and __Python3__. Following [tools and packages](#tools) are necessary.
 3. To run the script: `sh main.sh`    
