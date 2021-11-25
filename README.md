@@ -44,7 +44,7 @@ This package is used to investigate annual minimum river level on River Negro ov
 * Download ECMWF rainfall forecast: `ecmwf_forecast_rainfall_download.py`
 * Scrape and download the maximum river level over Manaus: `fetch_river_level_max.py`
 * Scrape and calculate the seasonal circulation indies: `fetch_???.py`
-* 
+* Associated funtions used in main python scripts: `river_level_analysis.py`
 
 ## <a name="tools"></a>Required Tools and Packages
 ### Data Processing Tools
