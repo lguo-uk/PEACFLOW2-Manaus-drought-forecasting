@@ -32,6 +32,7 @@ This package is used to investigate annual minimum river level on River Negro ov
 * Monthly rainfall mask for ECMWF seasonal forecast: `mask_chirps2ec_???.npz`
 * Statistical Forecast Model ensemble: `forecast_model_w?Sep.pickle`
 * Data for ECMWF rainfall bias correction: `rainfall_bias_correction*.npz`
+* Data for investigating forecast models uncertainty: `models_uncertainty_w?Sep.npz`
 ### Data needed for bias correction:
 (Following three datasets are prepared and stored in __obs_1981-2020.cvs__ using __prepare_obs.ipynb__.)\
 (__Note that:__ this file needs annual update to include the latest observations.)
