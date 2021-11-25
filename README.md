@@ -33,15 +33,13 @@ This package is used to investigate annual minimum river level on River Negro ov
 * Statistical Forecast Model ensemble: `forecast_model_w?Sep.pickle`
 * Data for ECMWF rainfall bias correction: `rainfall_bias_correction*.npz`
 * Data for investigating forecast models uncertainty: `models_uncertainty_w?Sep.npz`
-### Data needed for bias correction:
-(Following three datasets are prepared and stored in __obs_1981-2020.cvs__ using __prepare_obs.ipynb__.)\
-(__Note that:__ this file needs annual update to include the latest observations.)
-* CHIRPS rainfall (Observation)
-* Circulation metrics (Observation)
-* Prepending maximum annual river level (Observation)
-### Data to be downloaded for forecasting
-* ECMWF rainfall (Seasonal Forecast)
-* Circulation metrics (Seasonal Forecast)
+### Data to be prepared
+* CHIRPS monthly rainfall.
+* ECMWF monhtly rainfall forecast.
+* Prepending maximum river level over Manaus.
+* Circulation indies: AMO, IPO, SOI.
+* ECMWF monthly sea surface temperature forecast.
+### Other scripts
 
 ## <a name="tools"></a>Required Tools and Packages
 ### Data Processing Tools
