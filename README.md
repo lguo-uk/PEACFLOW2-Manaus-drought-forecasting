@@ -7,8 +7,10 @@ This package is used to investigate annual minimum river level on River Negro ov
 1. Download the package.
 2. Scripts are written in __Bash__ and __Python3__. Following [tools and packages](#tools) are necessary.
 3. To run the script: `sh main.sh`    
-  3.1 Enter forecasted year:   
-  ![Step1](./github01.png) 
+  3.1 Enter forecasting year:   
+  ![Step1](./github01.png)    
+  3.2 Choose forecasting lead month:    
+  ![Setp2](./github02.png)
 
 # Prepared data
 ## Constant data
