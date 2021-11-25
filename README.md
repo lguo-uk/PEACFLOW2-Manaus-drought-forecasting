@@ -15,6 +15,10 @@ This package is used to investigate annual minimum river level on River Negro ov
   ![Step3](./github03.png)    
   3.4 Choose forecasting input:    
   ![Step4](./github04.png)    
+  3.4.2 For *Seasonal-Forecast* only, if *lead-month = August*, then a model-ensemble need to be specified.
+    - *wiSep*: Include September rainfall forecast.
+    - *woSep*: Exclude September rainfall forecast.    
+  ![Step4.2](./github04_2.png)    
   3.5 Downloading input data:    
   ![Step5](./github05.png)    
   3.6 Forecasting minimum river level with the uncertainty range:    
