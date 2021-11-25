@@ -3,7 +3,7 @@ This package is used to investigate annual minimum river level on River Negro ov
 
 ![Manaus Drought 2010](./manaus_drought_2010.png)
 
-# Usage of the packge
+## Use the packge
 1. Download the package.
 2. Scripts are written in __Bash__ and __Python3__. Following [tools and packages](#tools) are necessary.
 3. To run the script: `sh main.sh`    
@@ -26,20 +26,20 @@ This package is used to investigate annual minimum river level on River Negro ov
   3.7 Investigating the probability under a customised threshold:    
   ![Step7](./github07.png)
 
-# Prepared data
-## Constant data
+## Prepared data
+### Constant data
 * Rainfall mask
-## Data needed for bias correction:
+### Data needed for bias correction:
 (Following three datasets are prepared and stored in __obs_1981-2020.cvs__ using __prepare_obs.ipynb__.)\
 (__Note that:__ this file needs annual update to include the latest observations.)
 * CHIRPS rainfall (Observation)
 * Circulation metrics (Observation)
 * Prepending maximum annual river level (Observation)
-## Data to be downloaded for forecasting
+### Data to be downloaded for forecasting
 * ECMWF rainfall (Seasonal Forecast)
 * Circulation metrics (Seasonal Forecast)
 
-# <a name="tools"></a>Required Tools and Packages
+## <a name="tools"></a>Required Tools and Packages
 ### Data Processing Tools
 * [Climate Data Operators (CDO)](https://code.mpimet.mpg.de/projects/cdo/wiki)
   * More details can be found on its wiki page, Section: __Installation and Supported Platforms__.
