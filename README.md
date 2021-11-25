@@ -40,6 +40,11 @@ This package is used to investigate annual minimum river level on River Negro ov
 * Circulation indies: AMO, IPO, SOI.
 * ECMWF monthly sea surface temperature forecast.
 ### Other scripts
+* Main forecast python codes: `main_obs.py` *and* `main_forecast.py`
+* Download ECMWF rainfall forecast: `ecmwf_forecast_rainfall_download.py`
+* Scrape and download the maximum river level over Manaus: `fetch_river_level_max.py`
+* Scrape and calculate the seasonal circulation indies: `fetch_???.py`
+* 
 
 ## <a name="tools"></a>Required Tools and Packages
 ### Data Processing Tools
@@ -53,4 +58,4 @@ This package is used to investigate annual minimum river level on River Negro ov
 * [cf python package](https://ncas-cms.github.io/cf-python/)
   * Installation details are available [here](https://ncas-cms.github.io/cf-python/installation.html). 
 * [ECMWF/cdsapi package](https://github.com/ecmwf/cdsapi) for data download.
-* Other common used packages inlcuding: numpy, pickle, sys.
+* Other common used packages inlcuding: *numpy, pickle, sys, pandas, requests*.
